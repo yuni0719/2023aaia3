@@ -16,7 +16,7 @@ int main()
 	while(cin>>n) { //Step01: Input
 		if(n==0) break;
 		
-		n = f(n);
+		n = f(f(f(n)));
 		cout << n << endl;
 	}
 }
